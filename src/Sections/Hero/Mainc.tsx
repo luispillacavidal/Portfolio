@@ -13,10 +13,10 @@ function Mainc(): JSX.Element {
     >
       <section className="hero">
 
-        <div className="hero-name-container">
+        <div className="hero-name-contaqiner">
           <video
             className="hero-name-video"
-            src="../public/Video/Otoño.mp4"
+            src="/Video/Otoño.mp4"
             autoPlay
             loop
             muted
@@ -86,7 +86,7 @@ function Mainc(): JSX.Element {
           </div>
 
           <div className="hero-right">
-            <img src="../public/Images/profile.jpg" alt="Profile Picture" />
+            <img src="/Images/profile.jpg" alt="Profile Picture" />
           </div>
         </div>
 

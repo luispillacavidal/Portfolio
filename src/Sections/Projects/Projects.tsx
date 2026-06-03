@@ -25,7 +25,7 @@ function Projects(): JSX.Element {
               className="project-card"
             >
               <img
-                src="../public/Images/KhipuP.png"
+                src="/Images/KhipuP.png"
                 className="project-image"
                 alt="Khipu Predict"
                 loading="lazy"

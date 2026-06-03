@@ -21,7 +21,7 @@ function Navbar(): JSX.Element {
       </ul>
 
       <div className="navbar-logo">
-        <video src="../public/Video/Log.mp4" autoPlay loop muted playsInline />
+        <video src="/Video/Log.mp4" autoPlay loop muted playsInline />
       </div>
 
       <ul className={`navbar-links ${open ? "open" : ""}`}>
