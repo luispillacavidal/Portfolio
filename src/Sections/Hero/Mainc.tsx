@@ -92,7 +92,7 @@ function Mainc(): JSX.Element {
 
         <div className="Curriculum">
           <a
-            href="/CV LuisAngelPillacaVidal.pdf"
+            href="/Curriculum/CVLuisAngelPillacaVidal.pdf"
             download="CV LuisAngelPillacaVidal.pdf"
             rel="noopener noreferrer"
             aria-label="Curriculum"
