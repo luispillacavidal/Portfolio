@@ -13,17 +13,13 @@ body {
   padding: 0;
   width: 100%;
   overflow-x: hidden;
-
-  /* ❌ ELIMINAR smooth global */
   scroll-behavior: auto;
 }
 
-/* Root NO necesita height fijo */
 #root {
   width: 100%;
 }
 
-/* Ocultar scrollbar sin afectar layout */
 body::-webkit-scrollbar {
   width: 0;
   height: 0;

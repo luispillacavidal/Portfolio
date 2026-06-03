@@ -27,7 +27,6 @@
   z-index: -2;
   pointer-events: none;
 
-  /* Quita suavizados innecesarios */
   transform: translateZ(0);
     backface-visibility: hidden;
 
@@ -41,8 +40,6 @@
 .App::after {
   content: "";
   inset: 0;
-
-  /* Menos opacidad = más nitidez */
   background: rgba(0, 0, 0, 0.25);
   transform: translateZ(0);
   backface-visibility: hidden;
@@ -53,7 +50,6 @@
 
 @media (max-width: 768px) {
 
-  /* Loading */
   .loading-screen {
     padding: 0 16px;
   }
@@ -62,15 +58,13 @@
     height: 3px;
   }
 
-  /* Video de fondo */
   .app-bg-video {
     width: 100vw;
-    height: 100vh;          /* FIX: en móvil debe ser vh */
+    height: 100vh;
     object-fit: cover;
   }
 
-  /* Overlay */
   .App::after {
-    background: rgba(0, 0, 0, 0.35); /* un poco más oscuro para legibilidad */
+    background: rgba(0, 0, 0, 0.35); 
   }
 }

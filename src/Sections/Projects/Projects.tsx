@@ -1,7 +1,7 @@
 import type { JSX } from "react";
 import "./Projects.css";
-import "./ScrollIndicator.css";
-import { useInView } from "./hooks/useInView";
+import "../../Components/ScrollIndicator/ScrollIndicator.css";
+import { useInView } from "../../hooks/useInView";
 
 function Projects(): JSX.Element {
   const { ref, isVisible } = useInView<HTMLElement>();
@@ -25,7 +25,7 @@ function Projects(): JSX.Element {
               className="project-card"
             >
               <img
-                src="/KhipuP.png"
+                src="../public/Images/KhipuP.png"
                 className="project-image"
                 alt="Khipu Predict"
                 loading="lazy"
@@ -34,7 +34,7 @@ function Projects(): JSX.Element {
               <h3 className="project-title">Khipu Predict</h3>
 
               <p className="project-description">
-                Predictive analytics platform using AI and geospatial data.
+                Full Stack web application that enables users to locate Peruvian khipus in museums and explore their structural characteristics through interactive visualization and analysis.
               </p>
 
               <div className="project-tags">

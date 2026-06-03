@@ -7,7 +7,6 @@ function Navbar(): JSX.Element {
 
   return (
     <nav className="navbar">
-      {/* BOTÓN HAMBURGUESA (solo móvil por CSS) */}
       <button
         className="navbar-toggle"
         onClick={() => setOpen(!open)}
@@ -22,12 +21,12 @@ function Navbar(): JSX.Element {
       </ul>
 
       <div className="navbar-logo">
-        <video src="Log.mp4" autoPlay loop muted playsInline />
+        <video src="../public/Video/Log.mp4" autoPlay loop muted playsInline />
       </div>
 
       <ul className={`navbar-links ${open ? "open" : ""}`}>
         <li><a href="#technologies">Technologies</a></li>
-        <li><a href="#education">Education & Contact</a></li>
+        <li><a href="#education-contact">Education & Contact</a></li>
       </ul>
 
     </nav>

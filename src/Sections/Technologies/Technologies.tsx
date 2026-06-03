@@ -1,5 +1,5 @@
 import type { JSX } from "react";
-import { useInView } from "./hooks/useInView";
+import { useInView } from "../../hooks/useInView";
 
 import {
   FaReact,
@@ -48,7 +48,6 @@ function Technologies(): JSX.Element {
           <h2>Technologies</h2>
         </div>
 
-        {/* ROW 1 */}
         <div className="tech-row">
           <div className="tech-block">
             <h3>Frontend</h3>
@@ -71,7 +70,6 @@ function Technologies(): JSX.Element {
           </div>
         </div>
 
-        {/* ROW 2 */}
         <div className="tech-row">
           <div className="tech-block">
             <h3>Databases</h3>
@@ -94,7 +92,6 @@ function Technologies(): JSX.Element {
           </div>
         </div>
 
-        {/* ROW 3 */}
         <div className="tech-row">
           <div className="tech-block">
             <h3>Cloud & DevOps</h3>
@@ -119,7 +116,6 @@ function Technologies(): JSX.Element {
           </div>
         </div>
 
-        {/* SCROLL */}
         <div className="scroll-projects">
           <a href="#education-contact">
             <span>Education & Contact</span>

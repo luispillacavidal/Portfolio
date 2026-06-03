@@ -1,6 +1,6 @@
 import type { JSX } from "react";
 import "./Education.css";
-import { useInView } from "./hooks/useInView";
+import { useInView } from "../../hooks/useInView";
 
 function Education(): JSX.Element {
   const { ref, isVisible } = useInView<HTMLDivElement>();
@@ -19,7 +19,6 @@ function Education(): JSX.Element {
 
         <div className="education-content">
 
-          {/* EDUCATION */}
           <div className="education-block">
             <h3>Education</h3>
 
@@ -46,7 +45,6 @@ function Education(): JSX.Element {
             </div>
           </div>
 
-          {/* CONTACT */}
           <div className="education-block">
             <h3>Contact</h3>
 

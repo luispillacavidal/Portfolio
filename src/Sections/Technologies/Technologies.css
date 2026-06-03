@@ -1,6 +1,4 @@
-/* =========================
-   SECCIÓN GENERAL
-========================= */
+
 .technologies-section {
   min-height: 100vh;
   width: 100%;
@@ -26,9 +24,6 @@
   will-change: opacity, transform;
 }
 
-/* =========================
-   LAYOUT
-========================= */
 .Technologies-layout {
   width: 100%;
   isolation: isolate;
@@ -37,9 +32,6 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
-/* =========================
-   HEADER
-========================= */
 .Technologies-top {
   text-align: center;
   margin-bottom: 1.5rem;
@@ -70,9 +62,6 @@
   backface-visibility: hidden;
 }
 
-/* =========================
-   GRID
-========================= */
 .tech-row {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -85,9 +74,6 @@
   grid-template-columns: 1fr;
 }
 
-/* =========================
-   BLOCKS
-========================= */
 .tech-block {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 18px;
@@ -104,9 +90,7 @@
   animation: sutleBlurN 4.5s ease-in-out infinite;
 }
 
-/* =========================
-   ICONS
-========================= */
+
 .tech-icons {
   display: flex;
   justify-content: center;
@@ -131,9 +115,7 @@
   background-color: white !important;
 }
 
-/* =========================
-   ICON COLORS
-========================= */
+
 .tech-icons svg[data-icon="react"] { background-color: #61dafb; }
 .tech-icons svg[data-icon="typescript"] { background-color: #3178c6; }
 .tech-icons svg[data-icon="javascript"] { background-color: #f7df1e; color: white; }
@@ -152,8 +134,6 @@
 .tech-icons svg[data-icon="github"] { background-color: #000; }
 .tech-icons svg[data-icon="vite"] { background-color: #646cff; }
 .tech-icons svg[data-icon="npm"] { background-color: #cb3837; }
-
-/* 🔥 NUEVOS ICONOS */
 .tech-icons svg[data-icon="docker"] { background-color: #2496ed; }
 .tech-icons svg[data-icon="postman"] { background-color: #ff6c37; }
 .tech-icons svg[data-icon="azure"] { background-color: #0078d4; }
@@ -161,9 +141,7 @@
 .tech-icons svg[data-icon="vercel"] { background-color: #000; }
 .tech-icons svg[data-icon="render"] { background-color: #46e3b7; }
 
-/* =========================
-   ANIMATION
-========================= */
+
 @keyframes sutleBlurN {
   0%, 100% {
     text-shadow:
@@ -180,9 +158,7 @@
   }
 }
 
-/* =========================
-   RESPONSIVE MOBILE
-========================= */
+
 @media (max-width: 768px) {
 
   .technologies-section {

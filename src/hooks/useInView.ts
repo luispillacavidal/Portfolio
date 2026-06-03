@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from 'react';
+
 
 export function useInView<T extends HTMLElement>(
   options?: IntersectionObserverInit

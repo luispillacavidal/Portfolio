@@ -23,10 +23,7 @@
 
 .arrow-down { margin-top: 0rem;
   font-size: 1.4rem;
-
   animation: bounce 2.2s cubic-bezier(.4,0,.2,1) infinite;
-
-  /* OPTIMIZACIÓN */
   will-change: auto;
   transform: translateZ(0);
   backface-visibility: hidden;

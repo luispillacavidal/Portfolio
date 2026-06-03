@@ -1,7 +1,7 @@
 import type { JSX } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import "./Mainc.css";
-import { useInView } from "./hooks/useInView";
+import { useInView } from "../../hooks/useInView";
 
 function Mainc(): JSX.Element {
   const { ref, isVisible } = useInView<HTMLDivElement>();
@@ -13,11 +13,10 @@ function Mainc(): JSX.Element {
     >
       <section className="hero">
 
-        {/* HERO NAME */}
         <div className="hero-name-container">
           <video
             className="hero-name-video"
-            src="/Otoño.mp4"
+            src="../public/Video/Otoño.mp4"
             autoPlay
             loop
             muted
@@ -33,7 +32,6 @@ function Mainc(): JSX.Element {
           </p>
         </div>
 
-        {/* PARTE SUPERIOR */}
         <div className="hero-top">
 
           <div className="hero-left">
@@ -54,7 +52,7 @@ function Mainc(): JSX.Element {
           <div className="social-buttons">
             <div className="social-item1">
               <a
-                href="https://github.com/RIBlankRam?tab=repositories"
+                href="https://github.com/luispillacavidal"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -78,7 +76,7 @@ function Mainc(): JSX.Element {
 
             <div className="social-item3">
               <a
-                href="mailto:tucorreo@email.com"
+                href="mailto:pillacavidalluisangel@gmail.com"
                 aria-label="Email"
               >
                 <FaEnvelope />
@@ -88,15 +86,14 @@ function Mainc(): JSX.Element {
           </div>
 
           <div className="hero-right">
-            <img src="/profile.jpg" alt="Profile Picture" />
+            <img src="../public/Images/profile.jpg" alt="Profile Picture" />
           </div>
         </div>
 
-        {/* CURRICULUM */}
         <div className="Curriculum">
           <a
-            href="/LuisPillacaCV.pdf"
-            download="LuisPillacaCV.pdf"
+            href="/CV LuisAngelPillacaVidal.pdf"
+            download="CV LuisAngelPillacaVidal.pdf"
             rel="noopener noreferrer"
             aria-label="Curriculum"
           >
@@ -104,7 +101,6 @@ function Mainc(): JSX.Element {
           </a>
         </div>
 
-        {/* SCROLL */}
         <div className="scroll-projects">
           <a href="#projects">
             <span>Projects</span>

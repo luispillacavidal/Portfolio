@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import Navbar from "./Navbar";
-import Mainc from "./Mainc";
-import Projects from "./Projects";
-import Technologies from "./Technologies";
-import Education from "./Education";
+import Navbar from "./Components/Navbar/Navbar";
+import Mainc from "./Sections/Hero/Mainc";
+import Projects from "./Sections/Projects/Projects";
+import Technologies from "./Sections/Technologies/Technologies";
+import Education from "./Sections/Education/Education";
 import "./App.css";
 
 function App() {
@@ -33,7 +33,6 @@ function App() {
   return (
     <div className="App">
 
-      {/* LOADER */}
       {loading && (
         <div className="loading-screen">
           <div
@@ -43,10 +42,9 @@ function App() {
         </div>
       )}
 
-      {/* VIDEO DE FONDO */}
       <video
         className={`app-bg-video ${!loading ? "show" : ""}`}
-        src="/Navbar-font.mp4"
+        src="../public/Video/Navbar-font.mp4"
         autoPlay
         loop
         muted
@@ -54,7 +52,6 @@ function App() {
         preload="metadata"
       />
 
-      {/* CONTENIDO */}
       <div className={`app-content ${!loading ? "show" : ""}`}>
         <Navbar />
         <Mainc />

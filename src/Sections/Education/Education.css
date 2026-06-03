@@ -1,6 +1,4 @@
-/* =========================
-   SECCIÓN GENERAL
-========================= */
+
 .education-section {
   min-height: 100vh;
   width: 100%;
@@ -10,7 +8,6 @@
   justify-content: center;
   align-items: center;
 
-  /* estado inicial */
   opacity: 0;
   transform: translateY(50px);
 
@@ -19,10 +16,7 @@
     transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 
 will-change: auto;
-/* aislar sin romper layout */
   isolation: isolate;
-
-  /* ❌ quitar contain aquí */
   contain: none;
 }
 
@@ -41,10 +35,6 @@ will-change: auto;
   margin: 0 auto;
   font-family: 'Courier New', Courier, monospace;
 }
-
-/* =========================
-   TITLE
-========================= */
 
 .Education-top {
   text-align: center;
@@ -72,10 +62,6 @@ will-change: auto;
   border-radius: 3px;
 }
 
-/* =========================
-   CONTENT
-========================= */
-
 .education-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -93,9 +79,7 @@ will-change: auto;
   text-align: center;
 }
 
-/* =========================
-   EDUCATION
-========================= */
+
 
 .education-block h3 {
   color: white;
@@ -122,8 +106,6 @@ will-change: auto;
   opacity: 0.9;
 }
 
-/* Soft skills */
-
 .education-skills {
   margin-top: 2rem;
   display: flex;
@@ -142,10 +124,6 @@ will-change: auto;
   color: white;
 }
 
-/* =========================
-   CONTACT
-========================= */
-
 .contact-text {
   font-size: 0.95rem;
   line-height: 1.6;
@@ -161,13 +139,6 @@ will-change: auto;
   opacity: 0.85;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
-
-/* =========================
-   MOBILE RESPONSIVE
-========================= */
 @media (max-width: 768px) {
 
   .education-section {
@@ -175,7 +146,6 @@ will-change: auto;
     padding: 3rem 1.5rem;
   }
 
-  /* TITLE */
   .Education-top {
     margin-bottom: 2.5rem;
   }
@@ -190,13 +160,11 @@ will-change: auto;
     margin-top: 1.2rem;
   }
 
-  /* GRID */
   .education-content {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
 
-  /* BLOCK */
   .education-block {
     padding: 1.8rem 1.5rem;
     border-radius: 16px;
@@ -207,7 +175,6 @@ will-change: auto;
     margin-bottom: 1.5rem;
   }
 
-  /* EDUCATION ITEM */
   .education-item h4 {
     font-size: 1.05rem;
   }
@@ -222,7 +189,6 @@ will-change: auto;
     line-height: 1.65;
   }
 
-  /* SKILLS */
   .education-skills {
     margin-top: 1.5rem;
     gap: 0.6rem;
@@ -233,7 +199,6 @@ will-change: auto;
     padding: 0.35rem 0.75rem;
   }
 
-  /* CONTACT */
   .contact-text {
     font-size: 0.9rem;
     margin-bottom: 1.5rem;
@@ -244,11 +209,6 @@ will-change: auto;
     margin-bottom: 0.6rem;
   }
 }
-
-
-/* =========================
-   ANIMATION
-========================= */
 
 @keyframes sutleBlurN {
   0%, 100% {
