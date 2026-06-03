@@ -44,7 +44,7 @@ function App() {
 
       <video
         className={`app-bg-video ${!loading ? "show" : ""}`}
-        src="../public/Video/Navbar-font.mp4"
+        src="/Video/Navbar-font.mp4"
         autoPlay
         loop
         muted
