@@ -13,7 +13,7 @@ function Mainc(): JSX.Element {
     >
       <section className="hero">
 
-        <div className="hero-name-contaqiner">
+        <div className="hero-name-container">
           <video
             className="hero-name-video"
             src="/Video/Otoño.mp4"
