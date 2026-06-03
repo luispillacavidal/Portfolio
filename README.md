@@ -1,4 +1,4 @@
-# Ángel Pillaca - Portfolio
+# Luis Angel Pillaca Vidal - Portfolio
 
 Personal portfolio built with React, TypeScript and Vite.
 
